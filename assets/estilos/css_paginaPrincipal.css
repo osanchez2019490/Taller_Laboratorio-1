@@ -1,5 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap');
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat";
 
     height: 100hv;
     margin: 0;
@@ -97,11 +99,26 @@ body{
 }
 
 .contenedor_titulos{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat";
     display: flex;
+    height: 100vh;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     text-align: center;
     color: white;
 }
 
+.tituloPrincipal {
+   font-size: 140px;
+   margin: 0;
+}
+
+.tituloPrincipal span {
+    color: #e91e63;
+}
+
+.textoPrincipal {
+    font-size: 36px;
+    width: 700px;
+}
