@@ -95,3 +95,13 @@ body{
 	opacity: 1;
 	transition-delay: 400ms;
 }
+
+.contenedor_titulos{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
