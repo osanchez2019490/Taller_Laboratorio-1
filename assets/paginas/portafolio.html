@@ -5,23 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Personal</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="../estilos/css_portafolio.css">
 </head>
 
 <body>
     <div>
-        <header>
-                <h1>Omar Emiliani Sánchez Mendoza</h1>
-        </header>
-        <nav>
-            <h1 class="Logo">KINAL</h1>
-            <ul>
-                <li><a href="#sobreMi">Sobre mi!</a></li>
-                <li><a href="#Proyectos!">Proyectos!</a></li>
-                <li><a href="#Video!">Video!</a></li>
-                <li><a href="#Habilidades!">Habilidades!</a></li>
-                <li><a href="#Formulario!">Formulario!</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white;">
+            <a class="navbar-brand" href="#">KINAL</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../../index.html">Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/paginas/portafolio.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Rediseño</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
         <div class="sobreMi" id="sobreMi">
@@ -38,29 +45,29 @@
             <h1>Proyectos:</h1>
             <br>
             <h2>Ahorcado proyecto</h2>
-            <img src="Ahorcado.PNG">
-            <img src="AhorcadoSitio.PNG">
+            <img src="../imagenes/Ahorcado.PNG">
+            <img src="../imagenes/AhorcadoSitio.PNG">
             <a class="ab" href="https://github.com/osanchez2019490/AhorcadoGrupo.git">Link del proyecto</a>
         </section>
         <section class="proyecto">
             <h1>Proyectos:</h1>
             <br>
             <h2>Kinex Proyecto</h2>
-            <img src="Kinex.PNG">
-            <img src="KinexXD.PNG">
+            <img src="../imagenes/Kinex.PNG">
+            <img src="../imagenes/KinexXD.PNG">
             <a class="ab" href="https://github.com/dsuarez24/KinEx.git">Link del proyecto</a>
         </section>
 
         <section class="video" id="Video!">
             <video width="640" height="360" controls>
-                <source src="Josh Hutcherson Meme.mp4" type="video/mp4">
+                <source src="../imagenes/Josh Hutcherson Meme.mp4" type="video/mp4">
             </video>
         </section>
         <section class="proyecto">
             <h1>Habilidades:</h1>
-            <img class="imgH" src="htm css js.png">
-            <img class="imgH" src="sql.png">
-            <img class="imgH" src="netBeans.png">
+            <img class="imgH" src="../imagenes/htm css js.png">
+            <img class="imgH" src="../imagenes/sql.png">
+            <img class="imgH" src="../imagenes/netBeans.png">
         </section>
         </section>
         <section class="formulario" id="Formulario!">
@@ -78,6 +85,8 @@
         </section>
         <footer>©2024 Centro Educativo Laboral Kinal</footer>
     </div>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </body>
 
 
