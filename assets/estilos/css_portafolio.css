@@ -5,15 +5,20 @@
 }
 
 body{
-  background-color: #f5f5f5;
+  background: linear-gradient(117deg, rgba(2,0,36,1) 0%, rgba(121,58,9,1) 100%, rgba(0,212,255,1) 100%);
 }
-
 .titulo{
   text-align: center;
-  font-size: 40px;
-  padding-top: 50px;
+  font-size: 80px;
+  font-family: "Montserrat";
+  margin-top: 0px;
+  color: white;
 }
 
+.titulo span{
+  color: #e91e63;
+
+}
 .slider-box {
   width: 1280px;
   height: auto;
@@ -24,7 +29,7 @@ body{
 .slider-box ul {
   display: flex;
   padding: 0;
-  width: 100%;
+  width: 400%;
   animation:  slide 20s infinite alternate ease-in-out;
 }
 
@@ -36,9 +41,8 @@ body{
 
 .texto {
   position: absolute;
-  justify-content: center;
   text-align: center;
-  padding: 0 650px;
+  padding: 0 250px;
   top: 250px;
   color: #ffff;
 }
@@ -67,3 +71,36 @@ body{
 
 }
 
+
+.formulario{
+  height: 400px;
+  margin: 500px ;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: solid 1px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.formulario h3 {
+  color: white;
+}
+
+.estiloBoton{
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.estiloBoton:hover {
+  background-color: #45a049;
+}
+
+.estiloBoton:active{
+  background-color: #3e8e41;
+}
